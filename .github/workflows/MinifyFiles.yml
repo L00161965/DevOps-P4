@@ -7,7 +7,7 @@ on:
     branches: [ main ]
     
 jobs:
-  build:
+  minify:
     runs-on: ubuntu-latest      # Docker-based github actions have to run on a linux environment
     steps:
       - name: HTML/CSS/JS Minifier
